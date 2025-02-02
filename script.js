@@ -55,26 +55,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
             if (timeDiff <= 2 && timeDiff >= 0) {
                 li.classList.add("expiring-soon");
-                //Custom Popup
-                const popup = document.createElement('div');
-                popup.classList.add('custom-popup');
-                popup.innerHTML = `
-                    <div class="popup-content">
-                        <span class="close-button">&times;</span>
-                        <p>The product ${product.name} is going to get expired ${timeDiff === 1 ? 'within a span of 1 day!' : timeDiff === 0 ? 'today!' : `in ${timeDiff} days!`}</p>
-                    </div>
-                `;
-                document.body.appendChild(popup);
-                const closeButton = popup.querySelector('.close-button');
-                closeButton.addEventListener('click', () => {
-                    document.body.removeChild(popup);
-                });
-                popup.addEventListener('click', (event) => {
-                    if (event.target === popup) {
-                        document.body.removeChild(popup);
-                    }
-                });
-
+                if (timeDiff === 1) {
+                    alert(`Reminder: ${product.name} will expire in ${timeDiff} day!`);
+                } else if (timeDiff === 0) {
+                    alert(`Reminder: ${product.name} will expire today!`);
+                } else {
+                    alert(`Reminder: ${product.name} will expire in ${timeDiff} days!`);
+                }
             } else if (timeDiff < 0) {
                 li.classList.add("expired");
             }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Expiry Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="font-family: 'Cooper', serif;">WELCOME</h1>
+
+        <form id="productForm">
+            <div class="input-group">
+                <label for="productName">Product Name:</label>
+                <input type="text" id="productName" required>
+            </div>
+            <div class="input-group">
+                <label for="mfgDate">Manufacturing Date:</label>
+                <input type="date" id="mfgDate" required>
+            </div>
+            <div class="input-group">
+                <label for="expDate">Expiry Date:</label>
+                <input type="date" id="expDate" required>
+            </div>
+            <button type="submit">Add Product</button>
+        </form>
+
+        <h2 style="font-family: 'Cooper', serif;">PRODUCT LIST</h2>
+        <ul id="productList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

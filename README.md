@@ -86,10 +86,6 @@ It gives the user a notification message or more described as a alert message.
 
 
 
-# Build Photos
-![alt text](TEAM.jpg)
-
-
 ![alt text](image.png)
 We prepared a UI/UX design for a brief idea and routemap to our main focus.
 

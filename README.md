@@ -66,10 +66,10 @@ open h.html with live server
 
 
 # Screenshots:
-[alt Entry](Entry_page.png)
+[Entry_Page](Entry_page.png)
 This is a clean and simple entry (or splash) page design featuring a logo, a brand name, and a call-to-action button.
 
-[alt Main](main_page.png)
+[Main_Page](main_page.png)
 This is a clean and functional design for a product expiry tracking application's main page. Let's analyze its elements and discuss its potential effectiveness:
 
 Elements:

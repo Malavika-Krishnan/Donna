@@ -81,7 +81,7 @@ Manufacturing Date and Expiry date: A labeled date input field, pre-filled with 
 Add Product Button: A dark red, rectangular button with rounded corners and the text "Add Product" provides a clear call to action.
 Product List Heading: "PRODUCT LIST" is displayed below the button, introducing the section where added products will be shown.
 
-[alt text](notification.png)
+[Notification](notification.png)
 It gives the user a notification message or more described as a alert message.
 
 

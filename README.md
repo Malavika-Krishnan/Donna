@@ -94,7 +94,8 @@ This Product Expiry Tracker app is designed to help users keep track of the expi
 
 Importance and Benefits:
 
-Reduces Waste:  The primary reason this app is important is that it helps reduce product waste.  By providing timely reminders about expiring products, users are more likely to use them before they expire, saving money and reducing the environmental impact of throwing away unused goods.   
+-Reduces Waste:  The primary reason this app is important is that it helps reduce product waste.  By providing timely reminders about expiring products, users are more 
+ likely to use them before they expire, saving money and reducing the environmental impact of throwing away unused goods.   
 
 Saves Money: Expired products often end up being thrown away, which is essentially throwing money in the bin. By using this app, users can avoid wasting money on products they don't end up using.   
 

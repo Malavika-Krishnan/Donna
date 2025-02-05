@@ -36,7 +36,7 @@ The Donna App is built using HTML, CSS, and JavaScript to track product expiry d
 Form Input: Users enter product name, manufacturing date, and expiry date.
 Product List: Displays added products with expiry details.
 
-2. Functionality & Logic - (script.js)
+3. Functionality & Logic - (script.js)
 Local Storage: Stores product details in the browser.
 Expiry Tracking:
 Removes expired products automatically.
@@ -45,7 +45,7 @@ Notification System:
 Popups alert users before expiry (up to 3 times, every 6 hours).
 Delete Option: Users can remove items manually.
 
-3. Technology Stack
+4. Technology Stack
 Frontend: HTML, CSS
 Backend Logic: JavaScript
 Storage: LocalStorage for offline data persistence

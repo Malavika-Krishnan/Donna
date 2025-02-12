@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
     loadProducts(); 
 
     productForm.addEventListener("submit", function (event) {
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault(); 
 
         const productName = document.getElementById("productName").value;
         const mfgDate = document.getElementById("mfgDate").value;

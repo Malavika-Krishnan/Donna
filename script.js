@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const productForm = document.getElementById("productForm");
     const productList = document.getElementById("productList");
 
-    loadProducts(); // Load products on page load
+    loadProducts(); 
 
     productForm.addEventListener("submit", function (event) {
         event.preventDefault(); // Prevent form submission

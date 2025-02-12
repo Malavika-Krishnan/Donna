@@ -84,5 +84,5 @@ document.addEventListener("DOMContentLoaded", function () {
         loadProducts();
     }
 
-    setInterval(loadProducts, 60000); // Update every minute
+    setInterval(loadProducts, 60000); 
 });

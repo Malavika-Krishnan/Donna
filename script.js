@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function loadProducts() {
-        productList.innerHTML = ""; // Clear the list
+        productList.innerHTML = ""; 
         let products = JSON.parse(localStorage.getItem("products")) || [];
         const today = new Date();
 

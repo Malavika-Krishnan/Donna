@@ -8,7 +8,7 @@
 ### Team Members
 - Member 1: **Malavika Krishnan - Amal Jyothi College of engineering**
 - Member 2: **Donamol Joseph - Amal Jyothi College of engineering**
-- Member 3: Jinsa Mariam Thomas - Amal Jyothi College
+- Member 3: **Jinsa Mariam Thomas - Amal Jyothi College of engineering**
 
 ### Hosted Project Link
 https://we-make-simple.netlify.app/h.html

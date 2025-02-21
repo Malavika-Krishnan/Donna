@@ -13,6 +13,7 @@
 ### Hosted Project Link
 https://we-make-simple.netlify.app/h.html
 
+
 ### Project Description
 The app developed under this project manually inputted into the database, then it stores this information to notify users a couple of days before the products' expiration. The idea of this application is to help decrease waste, maintain order, and provide the utmost convenience to its users.
 
